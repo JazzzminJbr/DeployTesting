@@ -6,7 +6,7 @@ on:
 
 jobs: 
   my-first-action-job:
-    rund-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Says Hello World
         run: echo "Hello Action World!"
