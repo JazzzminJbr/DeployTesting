@@ -1,0 +1,12 @@
+name: Hello World Action
+
+on:
+  push: 
+    branches: [ main ]
+
+jobs: 
+  my-first-action-job:
+    rund-on: ubuntu-latest
+    steps:
+      - name: Says Hello World
+        run: echo "Hello Action World!"
